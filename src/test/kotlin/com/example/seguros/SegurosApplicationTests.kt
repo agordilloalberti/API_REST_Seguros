@@ -1,12 +1,12 @@
-package com.example.unsecuredseguros
+package com.example.seguros
 
-import com.example.unsecuredseguros.utils.DniValidator
+import com.example.seguros.utils.DniValidator
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 import kotlin.test.assertTrue
 
 @SpringBootTest
-class UnsecuredSegurosApplicationTests {
+class SegurosApplicationTests {
 
 	@Test
 	fun contextLoads() {

@@ -1,4 +1,4 @@
-package com.example.unsecuredseguros.model
+package com.example.seguros.model
 
 import jakarta.persistence.*
 import java.util.Date

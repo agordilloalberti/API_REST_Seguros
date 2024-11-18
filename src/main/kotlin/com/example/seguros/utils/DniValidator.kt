@@ -1,4 +1,4 @@
-package com.example.unsecuredseguros.utils
+package com.example.seguros.utils
 
 object DniValidator {
 

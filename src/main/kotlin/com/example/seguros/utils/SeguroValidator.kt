@@ -1,6 +1,6 @@
-package com.example.unsecuredseguros.utils
+package com.example.seguros.utils
 
-import com.example.unsecuredseguros.model.Seguro
+import com.example.seguros.model.Seguro
 
 object SeguroValidator {
 
