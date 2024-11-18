@@ -22,8 +22,8 @@ class SeguroController() {
     }
 
     @GetMapping("/{id}")
-    fun getSeguro(@PathVariable id : Int): ResponseEntity<Seguro> {
-        val seg = seguroService.getSeguro(id)
+    fun getSeguro(@PathVariable id : String): ResponseEntity<Seguro> {
+        val seg = seguroService.getSeguro(id.toInt())
         return if (seg!=null) ResponseEntity.ok(seg) else ResponseEntity.notFound().build()
     }
 
